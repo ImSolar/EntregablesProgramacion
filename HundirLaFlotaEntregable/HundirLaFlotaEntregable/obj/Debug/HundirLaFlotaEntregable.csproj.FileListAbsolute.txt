@@ -7,3 +7,6 @@ c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\H
 c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.csproj.GenerateResource.Cache
 c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
 c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
+C:\Users\edu97\Documents\Visual Studio 2015\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe.config
+C:\Users\edu97\Documents\Visual Studio 2015\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
+C:\Users\edu97\Documents\Visual Studio 2015\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
