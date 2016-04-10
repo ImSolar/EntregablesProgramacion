@@ -53,7 +53,8 @@
 
         public string toString()
         {
-            return FilaInicial + "#" + ColumnaInicial + "#" + OrientacionBarco + "#" + Tamanyo;
+            string devuelto = filaInicial + "#" + columnaInicial + "#" + (int)orientacionBarco + "#" + tamanyo;
+            return devuelto;
         }
 
         

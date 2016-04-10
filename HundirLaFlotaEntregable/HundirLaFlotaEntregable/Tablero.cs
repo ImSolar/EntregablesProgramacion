@@ -61,6 +61,7 @@ namespace HundirLaFlotaEntregable
             barcos[7] = ponBarco(7, 1);
         }
 
+
         /// <summary>
         /// Coloca de forma aleatoria en las casillas libres 
         /// disponibles de mar el barco "id" de tamaño "tam"
@@ -109,6 +110,7 @@ namespace HundirLaFlotaEntregable
             return new Barco(fila, col, orientacion, tam, 0);
         }
 
+
         /// <summary>
         /// Comprueba si cabe un barco de tamaño "tam" que comience en la
         /// fila "fila", columna "col" y orientación "ori" (Horizontal o 
@@ -147,6 +149,7 @@ namespace HundirLaFlotaEntregable
             return resultado;
         }
 
+
         // Dada una fila y una columna ha de incrementar el número de disparos
         //   y averiguar que contenido tiene la casilla en la matriz mar. 
         //   Si el contenido es positivo o 0, se trata de la casilla de un barco
@@ -161,9 +164,47 @@ namespace HundirLaFlotaEntregable
         //   AGUA se devuelve AGUA (-1)
         public int disparaCasilla(int f, int c)
         {
+            disparos++;
+            int CasillaDisparada = mar[f, c];
 
-            // CÓDIGO A COMPLETAR
+            if (CasillaDisparada >= 0)
+            {
+
+
+                if (barcos[CasillaDisparada].TocaBarco())
+                {
+                    quedan--;
+
+
+                    if (barcos[CasillaDisparada].OrientacionBarco == Orientacion.Horizontal)
+                    {
+                        for (int i = 0; i < barcos[CasillaDisparada].Tamanyo; i++)
+                        {
+                            mar[f, i] = -2;
+                        }
+                    }
+                    else
+                    {
+                        for (int i = 0; i < barcos[CasillaDisparada].Tamanyo; i++)
+                        {
+                            mar[i, c] = -3;
+                        }
+                    }
+
+                    return CasillaDisparada;
+                }
+                else
+                {
+                    CasillaDisparada = -2;
+                    return CasillaDisparada;
+                }
+            }
+            else
+            {
+                return CasillaDisparada;
+            }
         }
+
 
         /// <summary>
         /// Devuelve el barco de posición idBarco del array de
@@ -172,11 +213,10 @@ namespace HundirLaFlotaEntregable
         /// </summary>
         /// <param name="idBarco"></param>
         /// <returns></returns>
-        public String getBarco(int idBarco)
+        public string getBarco(int idBarco)
         {
-
-            // CÓDIGO A COMPLETAR
+            
+            return barcos[idBarco].toString();
         }
-
     }
 }
