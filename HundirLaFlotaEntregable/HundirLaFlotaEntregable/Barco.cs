@@ -3,7 +3,6 @@
     class Barco
     {
 
-
         // Atributos indicados en el enunciado que han de estar en esta clase
         int filaInicial, columnaInicial;
         Orientacion orientacionBarco;
@@ -11,7 +10,6 @@
         int tocadas;
 
 
-        // CÓDIGO A COMPLETAR
         public Barco(int f, int c, Orientacion orientacion, int tamanyo, int tocadas)
         {
             filaInicial = f;
@@ -24,6 +22,7 @@
    
         // Getters y setters necesarios para los atributos indicados en la descripción 
         //   del juego ...
+
         public int FilaInicial { get; }
         public int ColumnaInicial { get; }
         public Orientacion OrientacionBarco { get; }
@@ -31,17 +30,33 @@
         public int Tocadas { get; set; }
 
 
-        // CÓDIGO A COMPLETAR
         // Método tocaBarco() que debe calcular lo que 
         //   se indica en el enunciado.
-        public bool TocaBarco()
 
-        // CÓDIGO A COMPLETAR
+        public bool TocaBarco()
+        {
+            Tocadas += 1;
+
+            if (Tocadas >= Tamanyo)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
 
         // Método toString() que debe devolver un String con el
         //   contenido que se indica en el enunciado.
 
-            // CÓDIGO A COMPLETAR
+        public string toString()
+        {
+            return FilaInicial + "#" + ColumnaInicial + "#" + OrientacionBarco + "#" + Tamanyo;
+        }
+
+        
 
     }
 }

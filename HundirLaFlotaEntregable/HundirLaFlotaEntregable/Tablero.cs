@@ -11,22 +11,38 @@ namespace HundirLaFlotaEntregable
         private int numBarcos, quedan, disparos;
         private Random random;
 
+
         // EL constructor de la clase
         public Tablero(int nf, int nc, int nb)
         {
-            // Inicializa los atributos adecuados,
-            //   inicializa el objeto random, asigna 
-            //   todos los elementos de mar a AGUA,
-            //   crea el array de barcos y, finalmente, 
-            //   llama al método ponBarcos()
+            //inicializa atributos
+            numFilas = nf;
+            numColumnas = nc;
+            numBarcos = nb;
 
-            // CÓDIGO A COMPLETAR
+            //inicializa los valores por referencia y pone el mar a todo agua
+            random = new Random();
+            mar = new int[numFilas, numColumnas];
+
+            for (int i = 0; i < mar.GetLength(0); i++)
+            {
+                for (int j = 0; j < mar.GetLength(1); j++)
+                {
+                    mar[i, j] = (int)Casilla.AGUA;
+                }
+            }
+
+            barcos = new Barco[numBarcos];
+            ponBarcos();
         }
 
 
         // Getters y setters necesarios
-
-        // CÓDIGO A COMPLETAR
+        public int NumFilas { get; }
+        public int NumColumnas { get; }
+        public int NumBarcos { get; }
+        public int Quedan { get; set; }
+        public int Disparos { get; set; }
 
 
         /// <summary>
