@@ -1,0 +1,9 @@
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe.config
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.pdb
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.csprojResolveAssemblyReference.cache
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.Form1.resources
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.Properties.Resources.resources
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.csproj.GenerateResource.Cache
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
+c:\users\garcial\documents\visual studio 2012\Projects\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
