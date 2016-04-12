@@ -19,6 +19,7 @@ namespace HundirLaFlotaEntregable
             numFilas = nf;
             numColumnas = nc;
             numBarcos = nb;
+            int hola = 5;
 
             //inicializa los valores por referencia y pone el mar a todo agua
             random = new Random();
