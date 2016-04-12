@@ -35,9 +35,9 @@
 
         public bool TocaBarco()
         {
-            Tocadas += 1;
+            tocadas += 1;
 
-            if (Tocadas >= Tamanyo)
+            if (tocadas >= tamanyo)
             {
                 return true;
             }

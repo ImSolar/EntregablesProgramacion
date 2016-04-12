@@ -174,24 +174,24 @@ namespace HundirLaFlotaEntregable
                 if (barcos[CasillaDisparada].TocaBarco())
                 {
                     quedan--;
-
+                    int identificadorBarco = CasillaDisparada;
 
                     if (barcos[CasillaDisparada].OrientacionBarco == Orientacion.Horizontal)
                     {
-                        for (int i = 0; i < barcos[CasillaDisparada].Tamanyo; i++)
+                        for (int i = c; i < barcos[CasillaDisparada].Tamanyo + c; i++)
                         {
-                            mar[f, i] = -2;
+                            mar[f, i] = -3;
                         }
                     }
                     else
                     {
-                        for (int i = 0; i < barcos[CasillaDisparada].Tamanyo; i++)
+                        for (int i = f; i < barcos[CasillaDisparada].Tamanyo + f; i++)
                         {
                             mar[i, c] = -3;
                         }
                     }
 
-                    return CasillaDisparada;
+                    return identificadorBarco;
                 }
                 else
                 {

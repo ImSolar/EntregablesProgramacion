@@ -115,9 +115,24 @@ namespace HundirLaFlotaEntregable
             
             int filaHundido = Convert.ToInt32(datos[0]);
             int columnaHundido = Convert.ToInt32(datos[1]);
-          
-            marBotones[filaHundido, columnaHundido].Tag = Casilla.HUNDIDO;
-            marBotones[filaHundido, columnaHundido].BackColor = Color.Red;
+            string orientacionHundido = datos[2];
+            int tamanyoHundido = Convert.ToInt32(datos[3]);
+
+            if (orientacionHundido == "Horizontal")
+            {
+                for (int i = 0; i < tamanyoHundido; i++)
+                {
+                    marBotones[filaHundido, i + columnaHundido].BackColor = Color.Red;
+                }
+            }
+            else
+            {
+                for (int i = 0; i < tamanyoHundido; i++)
+                {
+                    marBotones[filaHundido + i, columnaHundido].BackColor = Color.Red;
+                }
+            }
+            
  
         }
     }
