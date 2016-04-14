@@ -1,0 +1,6 @@
+c:\users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\bin\Debug\entregable_4.1.exe.config
+C:\Users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\bin\Debug\entregable_4.1.exe
+C:\Users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\bin\Debug\entregable_4.1.pdb
+C:\Users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\obj\Debug\entregable_4.1.csprojResolveAssemblyReference.cache
+C:\Users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\obj\Debug\entregable_4.1.exe
+C:\Users\edu97\onedrive\documentos\visual studio 2015\Projects\entregable_4.1\entregable_4.1\obj\Debug\entregable_4.1.pdb

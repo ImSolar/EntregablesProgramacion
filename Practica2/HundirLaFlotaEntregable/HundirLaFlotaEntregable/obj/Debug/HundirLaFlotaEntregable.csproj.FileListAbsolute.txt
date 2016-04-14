@@ -22,3 +22,6 @@ C:\Users\Darkynd13\Documents\Visual Studio 2015\Projects\pruebatt\HundirLaFlotaE
 C:\Users\Darkynd13\Documents\Visual Studio 2015\Projects\pruebatt\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
 C:\Users\Darkynd13\Documents\Visual Studio 2015\Projects\pruebatt\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
 >>>>>>> ae225cb5f7e9660bcbb846e330d4a778f7dae36e
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe.config
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
