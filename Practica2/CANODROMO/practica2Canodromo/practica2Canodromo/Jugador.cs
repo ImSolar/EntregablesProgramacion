@@ -18,7 +18,7 @@ namespace practica2Canodromo
         private RadioButton miRadioButton; 
         private Label miLabel; 
 
-        public string Nombre { get { return this.nombre; } }
+        public string Nombre { get; }
 
         public Jugador(string nombre, RadioButton miRadioButton, Label miLabel) // El constructor
         {
@@ -40,20 +40,18 @@ namespace practica2Canodromo
 
         }
         
-        public bool Apostar(int cantidad, int perro) 
-        {
-            miApuesta = new Apuesta(cantidad, perro, this);
-
+        public bool Apostar(int cantidad, int perro)
+        { 
             // Coloca una nueva apuesta y almacénala en el atributo apuesta
             // Devuelve true si el jugador tiene suficiente dinero para apostar
 
             if (cartera >= 5)
             {
                 miApuesta = new Apuesta(cantidad, perro, this); //Solo se crea si el jugador puede apostar
-
                 return true;
             }
-            else {
+            else
+            {
                 miApuesta = new Apuesta(0, 0, this);
                 return false;
             }

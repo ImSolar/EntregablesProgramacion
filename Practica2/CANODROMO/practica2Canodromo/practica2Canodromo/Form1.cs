@@ -17,19 +17,19 @@ namespace practica2Canodromo
         int longitudCalle = 500;
         Random aleatorio = new Random();
 
-        Galgo[] listaPerros;
-        Jugador[] listaJugadores;
+        Galgo[] arrayPerros;
+        Jugador[] arrayJugadores;
 
         public Form1()
         {
             InitializeComponent();
 
-            listaPerros = new Galgo[] { new Galgo(posicionInicial, longitudCalle,aleatorio, perro1),
+            arrayPerros = new Galgo[] { new Galgo(posicionInicial, longitudCalle,aleatorio, perro1),
                                     new Galgo(posicionInicial, longitudCalle,aleatorio, perro2), 
                                     new Galgo(posicionInicial, longitudCalle,aleatorio, perro3), 
                                     new Galgo(posicionInicial, longitudCalle,aleatorio, perro4) };
 
-            listaJugadores = new Jugador[] { new Jugador("Ana", rbAna, lblAna),
+            arrayJugadores = new Jugador[] { new Jugador("Ana", rbAna, lblAna),
                                          new Jugador("Carlos", rbCarlos, lblCarlos),
                                          new Jugador("Mayte", rbMayte, lblMayte) };
 
@@ -40,39 +40,39 @@ namespace practica2Canodromo
 
             if (rbAna.Checked == true) //Ana
             {
-                if (listaJugadores[0].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
+                if (arrayJugadores[0].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
                 {
-                    listaJugadores[0].ActualizaLabels();
+                    arrayJugadores[0].ActualizaLabels();
                 }
                 else
                 {
-                    MessageBox.Show(listaJugadores[0] + " no tiene suficiente dinero.");
+                    MessageBox.Show(arrayJugadores[0] + " no tiene suficiente dinero.");
                 }
             }
 
             if (rbCarlos.Checked == true) //Carlos
             {
 
-                if (listaJugadores[1].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
+                if (arrayJugadores[1].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
                 {
-                    listaJugadores[1].ActualizaLabels();
+                    arrayJugadores[1].ActualizaLabels();
                 }
                 else
                 {
-                    MessageBox.Show(listaJugadores[1] + " no tiene suficiente dinero.");
+                    MessageBox.Show(arrayJugadores[1] + " no tiene suficiente dinero.");
                 }
             }
 
             if (rbMayte.Checked == true) //Mayte
             {
 
-                if (listaJugadores[2].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
+                if (arrayJugadores[2].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
                 {
-                    listaJugadores[2].ActualizaLabels();
+                    arrayJugadores[2].ActualizaLabels();
                 }
                 else
                 {
-                    MessageBox.Show(listaJugadores[2] + " no tiene suficiente dinero.");
+                    MessageBox.Show(arrayJugadores[2] + " no tiene suficiente dinero.");
                 }
             }
             
@@ -84,11 +84,11 @@ namespace practica2Canodromo
 
             while (hayGanador == false)
             {
-                for (int i = 0; i < listaPerros.Length; i++ )
+                for (int i = 0; i < arrayPerros.Length; i++ )
                 {
-                    if(listaPerros[i].Run() == true)
+                    if(arrayPerros[i].Run() == true)
                     {
-                        foreach(Jugador jugador in listaJugadores)
+                        foreach(Jugador jugador in arrayJugadores)
                         {
                             jugador.Recoger(i+1);
                             jugador.EliminaApuesta();
@@ -105,9 +105,9 @@ namespace practica2Canodromo
                 
             }
 
-            foreach(Galgo perrillos in listaPerros)
+            foreach(Galgo perro in arrayPerros)
             {
-                perrillos.ASusPuestos();
+                perro.ASusPuestos();
             }
 
         }
