@@ -1,0 +1,23 @@
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.exe.config
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.exe
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.pdb
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.csprojResolveAssemblyReference.cache
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Form1.resources
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Properties.Resources.resources
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.csproj.GenerateResource.Cache
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.exe
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.pdb
+C:\Users\al341523\Desktop\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Form2.resources
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.exe.config
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.exe
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.pdb
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.exe
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.pdb
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.csprojResolveAssemblyReference.cache
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Form1.resources
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Form2.resources
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.Properties.Resources.resources
+C:\Users\Portatil\Escritorio\Hoy\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.csproj.GenerateResource.Cache
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\CANODROMO\practica2Canodromo\practica2Canodromo\bin\Debug\practica2Canodromo.exe.config
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\CANODROMO\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.exe
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\CANODROMO\practica2Canodromo\practica2Canodromo\obj\Debug\practica2Canodromo.pdb
