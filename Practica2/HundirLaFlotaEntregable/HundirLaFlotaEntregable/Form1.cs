@@ -118,7 +118,7 @@ namespace HundirLaFlotaEntregable
             string orientacionHundido = datos[2];
             int tamanyoHundido = Convert.ToInt32(datos[3]);
 
-            if (orientacionHundido == "Horizontal")
+            if (orientacionHundido == "0")
             {
                 for (int i = 0; i < tamanyoHundido; i++)
                 {
