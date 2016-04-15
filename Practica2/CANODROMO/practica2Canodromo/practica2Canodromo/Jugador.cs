@@ -34,17 +34,14 @@ namespace practica2Canodromo
             // Actualiza miLabel a la descripción de mi apuesta
             // Y la etiqueta de miRadioButton para mostrar mi cartera
             // por ejemplo, Pepe tiene 100 euros.
-
             miLabel.Text = miApuesta.GetDescripcion();
             miRadioButton.Text = nombre + " tiene " + cartera + " euros.";
-
         }
         
         public bool Apostar(int cantidad, int perro)
         { 
             // Coloca una nueva apuesta y almacénala en el atributo apuesta
             // Devuelve true si el jugador tiene suficiente dinero para apostar
-
             if (cartera >= 5)
             {
                 miApuesta = new Apuesta(cantidad, perro, this); //Solo se crea si el jugador puede apostar
