@@ -95,7 +95,6 @@ namespace HundirLaFlotaEntregable
             estadoLabel.Text = p;
         }
 
-
         /// <summary>
         /// Este código debe pedir al objeto tb que le diga el String
         /// que corresponde a idBarco. Y utilizando el método Split de 
@@ -108,8 +107,7 @@ namespace HundirLaFlotaEntregable
         /// <param name="idBarco"></param>
         private void pintarBarcoHundido(int idBarco)
         {
-            //LLamamos al metodo split, lo mete en un array de string y luego los transformamos a variables enteras.
-            
+            //LLamamos al metodo split, lo mete en un array de string y luego los transformamos a variables enteras.           
             string valorBarco = tb.getBarco(idBarco);
             string[] datos = valorBarco.Split('#');
             
@@ -132,8 +130,6 @@ namespace HundirLaFlotaEntregable
                     marBotones[filaHundido + i, columnaHundido].BackColor = Color.Red;
                 }
             }
-            
- 
         }
     }
 }

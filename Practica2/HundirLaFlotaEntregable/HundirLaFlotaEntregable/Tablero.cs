@@ -11,7 +11,6 @@ namespace HundirLaFlotaEntregable
         private int numBarcos, quedan, disparos;
         private Random random;
 
-
         // EL constructor de la clase
         public Tablero(int nf, int nc, int nb)
         {
@@ -19,7 +18,6 @@ namespace HundirLaFlotaEntregable
             numFilas = nf;
             numColumnas = nc;
             numBarcos = nb;
-            int hola = 5;
 
             //inicializa los valores por referencia y pone el mar a todo agua
             random = new Random();
@@ -32,11 +30,9 @@ namespace HundirLaFlotaEntregable
                     mar[i, j] = (int)Casilla.AGUA;
                 }
             }
-
             barcos = new Barco[numBarcos];
             ponBarcos();
         }
-
 
         // Getters y setters necesarios
         public int NumFilas { get; }
@@ -44,7 +40,6 @@ namespace HundirLaFlotaEntregable
         public int NumBarcos { get; }
         public int Quedan { get; set; }
         public int Disparos { get; set; }
-
 
         /// <summary>
         /// Crea y asigna cada uno de los barcos del juego en 
@@ -61,7 +56,6 @@ namespace HundirLaFlotaEntregable
             barcos[6] = ponBarco(6, 1);
             barcos[7] = ponBarco(7, 1);
         }
-
 
         /// <summary>
         /// Coloca de forma aleatoria en las casillas libres 
@@ -111,7 +105,6 @@ namespace HundirLaFlotaEntregable
             return new Barco(fila, col, orientacion, tam, 0);
         }
 
-
         /// <summary>
         /// Comprueba si cabe un barco de tamaño "tam" que comience en la
         /// fila "fila", columna "col" y orientación "ori" (Horizontal o 
@@ -150,7 +143,6 @@ namespace HundirLaFlotaEntregable
             return resultado;
         }
 
-
         // Dada una fila y una columna ha de incrementar el número de disparos
         //   y averiguar que contenido tiene la casilla en la matriz mar. 
         //   Si el contenido es positivo o 0, se trata de la casilla de un barco
@@ -170,8 +162,6 @@ namespace HundirLaFlotaEntregable
 
             if (CasillaDisparada >= 0)
             {
-
-
                 if (barcos[CasillaDisparada].TocaBarco())
                 {
                     quedan--;
@@ -205,7 +195,6 @@ namespace HundirLaFlotaEntregable
                 return CasillaDisparada;
             }
         }
-
 
         /// <summary>
         /// Devuelve el barco de posición idBarco del array de
