@@ -25,3 +25,9 @@ C:\Users\Darkynd13\Documents\Visual Studio 2015\Projects\pruebatt\HundirLaFlotaE
 D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe.config
 D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.exe
 D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.pdb
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.exe
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\bin\Debug\HundirLaFlotaEntregable.pdb
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.Form1.resources
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.Properties.Resources.resources
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Practica2\HundirLaFlotaEntregable\HundirLaFlotaEntregable\obj\Debug\HundirLaFlotaEntregable.csproj.GenerateResource.Cache
