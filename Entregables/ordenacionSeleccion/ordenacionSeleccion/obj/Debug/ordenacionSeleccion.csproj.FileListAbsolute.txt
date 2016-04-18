@@ -1,1 +1,7 @@
 c:\users\edu97\documents\visual studio 2015\Projects\ordenacionSeleccion\ordenacionSeleccion\bin\Debug\ordenacionSeleccion.exe.config
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\bin\Debug\ordenacionSeleccion.exe.config
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\bin\Debug\ordenacionSeleccion.exe
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\bin\Debug\ordenacionSeleccion.pdb
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\obj\Debug\ordenacionSeleccion.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\obj\Debug\ordenacionSeleccion.exe
+D:\OneDrive\Documentos\Visual Studio 2015\Projects\EntregablesProgramacion\Entregables\ordenacionSeleccion\ordenacionSeleccion\obj\Debug\ordenacionSeleccion.pdb
