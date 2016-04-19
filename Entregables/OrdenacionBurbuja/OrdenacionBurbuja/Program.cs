@@ -27,6 +27,7 @@ namespace OrdenacionBurbuja
                 for (int i = 1; i < array.Length; i++)
                 {
                    int actual = ComprobarParDeNumeros(array[i - 1], array[i]);
+
                     if (actual == array[i - 1])
                     {
                         contadorNumerosOrdenados = 0;
@@ -48,7 +49,12 @@ namespace OrdenacionBurbuja
                 }
             }
         }
-
+        /// <summary>
+        /// Compara dos numeros y devuelve el mayor de ambos
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         public static int ComprobarParDeNumeros(int num1, int num2)
         {
             if (num1 > num2)
