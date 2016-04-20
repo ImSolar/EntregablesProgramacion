@@ -118,22 +118,47 @@ namespace BuscaMinas
             return true;
         }
 
-        private void cuentaMinas() {
-            ////
-            ////
-            //// Código a Completar
-            ////
-            ////
+        private void cuentaMinas()
+        {
+            for (int i = 1 ; i < N - 1; i++)
+            {
+                for (int j = 1 ; j < M - 1; j++)
+                {
+                    //si no es 9, le asigna el valor de minas alrededor
+                    if(m[i,j] != 9)
+                        m[i, j] = comprobarNumeroDeMinasAlrededorDeUnaCasilla(i, j);
+                }
+            }
         }  
 
         private void ubicaMinas()
         {
-            ////
-            ////
-            //// Código a Completar
-            ////
-            ////
+            
         }
+
+        private int comprobarNumeroDeMinasAlrededorDeUnaCasilla(int x, int y)
+        {
+            int contadorMinas = 0;
+
+            for (int i = -1; i < 2; i++)
+            {
+                for (int j = -1; j < 2; j++)
+                {
+                    //si no estamos calculando la casilla de entrada
+                    if (i != x && j != y)
+                    {
+                        //si contiene bomba la casilla que estamos analizando
+                        if(m[x+i,y+j] == 9)
+                        {
+                            contadorMinas += 1;
+                        }
+                    }
+                }
+            }
+
+            return contadorMinas;
+        }
+
 
         private void escampa(int x, int y) {
             ////
