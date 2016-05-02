@@ -34,7 +34,7 @@ namespace BuscaMinas
             for (int i = 0; i < N; i++) visitadas[i, 0] = visitadas[i, M-1] = true;
             for (int i = 0; i < M; i++) visitadas[0, i] = visitadas[N-1, i] = true;
             creaCampo();
-            ubicaMinas();
+            ubicaMinas(Porcentaje);
             cuentaMinas();
         }
 
@@ -131,9 +131,30 @@ namespace BuscaMinas
             }
         }  
 
-        private void ubicaMinas()
+        private void ubicaMinas(int p)
         {
-            
+            int x;
+            int y;
+            int numeroDeMinas = calcularPorcentaje(p);
+
+            for (int i = 1; i < N - 1; i++)
+            {
+                if (i != numeroDeMinas)
+                {
+                    x = rand.Next(N - 1);
+                    y = rand.Next(M - 1);
+                    m[x, y] = 9;
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+
+        private int calcularPorcentaje(int p)
+        {
+            return (M - 2) * (N - 2) * p / 100;
         }
 
         private int comprobarNumeroDeMinasAlrededorDeUnaCasilla(int x, int y)
@@ -160,12 +181,30 @@ namespace BuscaMinas
         }
 
 
-        private void escampa(int x, int y) {
-            ////
-            ////
-            //// Código recursivo a Completar
-            ////
-            ////
+        private void escampa(int x, int y)
+        {
+            if (x < N - 1 && y < M - 1)
+                if (visitadas[x, y] == false)
+                    if (comprobarNumeroDeMinasAlrededorDeUnaCasilla(x, y) == 0)
+                    {
+                        visitadas[x, y] = true;
+                        Controls.Remove(campoBotones[x, y]);
+                        //arriba
+                        escampa(x - 1, y);
+                        //derecha
+                        escampa(x, y + 1);
+                        //abajo
+                        escampa(x + 1, y);
+                        //izquierda
+                        escampa(x, y - 1);
+                    }
+                    else
+                    {
+                        campoBotones[x, y].Text = Convert.ToString(comprobarNumeroDeMinasAlrededorDeUnaCasilla(x, y));
+                        visitadas[x, y] = true;
+                        campoBotones[x, y].Enabled = false;
+                    }
+                
         }
 
         private void button1_Click(object sender, EventArgs e) {
