@@ -29,17 +29,14 @@ namespace practica2Canodromo
             // cuánto se apostó y sobre qué perro. Por ejemplo, “Ana apuesta 14
             // euros en el perro #2”. Si la cantidad es 0 devuelve un string “Ana
             // no ha apostado en esta carrera.”
-
             if (cantidad > 0) return apostante.Nombre + " apuesta " + cantidad + " euros en el perro #" + perro;
             else return apostante.Nombre + " no ha apostado en esta carrera";
-
         }
         
         public int Pagos(int Ganador) 
         {
             // Si el perro de esta apuesta es el ganador, se devuelve cantidad.
             // En otro caso se devuelve –cantidad.
-
             if (perro == Ganador) return cantidad;
             else return -cantidad;
         }

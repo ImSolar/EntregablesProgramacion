@@ -37,7 +37,6 @@ namespace practica2Canodromo
 
         private void btnApuesta_Click(object sender, EventArgs e)
         {
-
             if (rbAna.Checked == true) //Ana
             {
                 if (arrayJugadores[0].Apostar(Convert.ToInt32(nudCantidad.Value), Convert.ToInt32(nudPerro.Value)) == true)
@@ -75,7 +74,6 @@ namespace practica2Canodromo
                     MessageBox.Show(arrayJugadores[2] + " no tiene suficiente dinero.");
                 }
             }
-            
         }
 
         private void btnYA_Click(object sender, EventArgs e)
@@ -98,10 +96,9 @@ namespace practica2Canodromo
                         MessageBox.Show("El ganador es el galgo numero: " + (i+1));
                         hayGanador = true;
                         break;
-
                     }
                 }
-                Thread.Sleep(50);
+                Thread.Sleep(10);
                 
             }
 
@@ -109,7 +106,6 @@ namespace practica2Canodromo
             {
                 perro.ASusPuestos();
             }
-
         }
 
         private void rbAna_CheckedChanged(object sender, EventArgs e)
