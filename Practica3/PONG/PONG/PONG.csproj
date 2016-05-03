@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F341BC4-F0B6-4167-8074-1089BFA9D2C0}</ProjectGuid>
+    <ProjectGuid>{CC1BBF52-E3EB-4BBC-B374-115E4F85C7EC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PONG</RootNamespace>
-    <AssemblyName>PONG</AssemblyName>
+    <RootNamespace>Pong</RootNamespace>
+    <AssemblyName>Pong</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,10 +54,11 @@
     </Compile>
     <Compile Include="Marcador.cs" />
     <Compile Include="Pelota.cs" />
+    <Compile Include="Posicion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Raqueta.cs" />
-    <Compile Include="Vector2D.cs" />
+    <Compile Include="Velocidad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

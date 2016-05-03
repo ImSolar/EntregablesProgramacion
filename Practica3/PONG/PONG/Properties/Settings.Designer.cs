@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PONG.Properties
+namespace Pong.Properties
 {
 
 
